@@ -1,9 +1,13 @@
 {
-  "project": "oss-risk-lite",
+  "project": "confluence-api-docs",
+  "project_label": "Confluence API 문서 자동화",
   "cycle_day": 1,
   "cycle_started": "2026-09-12",
-  "phase": "killed_weak_demand",
-  "decision": "stop",
+  "phase": "market_research_done",
+  "decision": "proceed",
   "last_updated": "2026-09-12",
-  "next_step": "다음 아이템 선정 필요 (사용자 확인 대기)"
+  "next_step": "Day 2 - 최소 기능 설계",
+  "previous_items": [
+    "oss-risk-lite (stopped 2026-09-12: weak demand)"
+  ]
 }

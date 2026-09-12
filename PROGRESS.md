@@ -33,3 +33,17 @@
 **내일 할 일**: OSS Risk Lite 중단. 다음 아이템 선정 필요.
 
 **승인 필요한 것**: OSS Risk Lite 중단 결정 확인 요청.
+
+## 2026-09-12 (Day 1 — #2 Confluence 기반 API 문서 자동화 도구)
+
+**오늘 한 일**: OSS Risk Lite 중단 후 신규 아이템 탐색. 후보 2개(Claude Code 유료 인증 스킬, Confluence/Jira MCP 상품화)는 각각 기존 무료 경쟁(마켓플레이스 스킬 다수 / Atlassian 공식 GA MCP)으로 기각. "Confluence 테이블 기반 API 문서 자동화"로 확정, Day1 시장 확인 완료.
+
+**확인된 사실**: API 문서화 자체는 검증된 유료 시장(ReadMe/Redocly/Stoplight 등). Redocly는 "OpenAPI 스펙 있음"을 전제로 하는 툴($10~24/seat/월) — 스펙 없이 Confluence로만 관리하는 팀은 사각지대일 가능성. 준님이 이미 이 정확한 문제(Confluence→정적 사이트 자동화)를 회사에서 운영 중.
+
+**돈 될 가능성**: 중간~높음(재평가 예정). 검증된 카테고리 + 명확한 미충족 니치 + 실행 경험 보유.
+
+**문제**: ReadMe/Stoplight/Theneo가 실제로 Confluence 미지원인지 전수 확인 안 됨. Atlassian Marketplace 내 유사 앱 존재 여부 미확인 — 다음 세션 확인 필요.
+
+**내일 할 일**: Day 2 — 최소 기능 설계 (스캔 범위: Confluence 테이블 구조 파싱, 변경 감지, 정적 사이트 템플릿, 배포 방식).
+
+**승인 필요한 것**: 없음 — 진행.
